@@ -1,0 +1,62 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+artifacts/
+
+# Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Node / React
+node_modules/
+dist/
+build/
+coverage/
+.npm/
+.pnpm-store/
+.yarn/
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Docker / local data
+docker-data/
+*.bak
+*.mdf
+*.ldf
+
+# Temporary files
+*.tmp
+*.temp
+
+# TypeScript build info
+*.tsbuildinfo

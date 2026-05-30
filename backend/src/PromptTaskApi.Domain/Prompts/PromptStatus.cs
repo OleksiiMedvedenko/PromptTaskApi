@@ -1,0 +1,9 @@
+namespace PromptTaskApi.Domain.Prompts;
+
+public enum PromptStatus
+{
+    Pending = 1,
+    Processing = 2,
+    Completed = 3,
+    Failed = 4
+}

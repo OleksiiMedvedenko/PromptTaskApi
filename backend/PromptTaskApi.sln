@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.Api", "src\PromptTaskApi.Api\PromptTaskApi.Api.csproj", "{1C58A523-00C5-4E42-A6E2-111111111111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.Application", "src\PromptTaskApi.Application\PromptTaskApi.Application.csproj", "{1C58A523-00C5-4E42-A6E2-222222222222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.Domain", "src\PromptTaskApi.Domain\PromptTaskApi.Domain.csproj", "{1C58A523-00C5-4E42-A6E2-333333333333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.Infrastructure", "src\PromptTaskApi.Infrastructure\PromptTaskApi.Infrastructure.csproj", "{1C58A523-00C5-4E42-A6E2-444444444444}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.Worker", "src\PromptTaskApi.Worker\PromptTaskApi.Worker.csproj", "{1C58A523-00C5-4E42-A6E2-555555555555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.UnitTests", "tests\PromptTaskApi.UnitTests\PromptTaskApi.UnitTests.csproj", "{1C58A523-00C5-4E42-A6E2-666666666666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromptTaskApi.IntegrationTests", "tests\PromptTaskApi.IntegrationTests\PromptTaskApi.IntegrationTests.csproj", "{1C58A523-00C5-4E42-A6E2-777777777777}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C58A523-00C5-4E42-A6E2-111111111111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-111111111111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-111111111111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-111111111111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-222222222222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-222222222222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-222222222222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-222222222222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-333333333333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-333333333333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-333333333333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-333333333333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-444444444444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-444444444444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-444444444444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-444444444444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-666666666666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-666666666666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-666666666666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-666666666666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-777777777777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-777777777777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C58A523-00C5-4E42-A6E2-777777777777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C58A523-00C5-4E42-A6E2-777777777777}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D7DAC67-F315-4B6C-8225-FB51EE1677E3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+node_modules/
+build/
+.git/
+.vscode/
+.idea/
+*.log
+.env
+.env.*
+!*.env.example
+*.tsbuildinfo
+dist/
