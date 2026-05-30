@@ -74,9 +74,9 @@ PromptTaskSystem/
 
 | File | Description |
 | --- | --- |
-| `docs/PromptTaskSystem_Backend_Documentation_PL.docx` | Backend structure, API, Application, Domain, Infrastructure, Worker, database and OpenAI SDK integration |
-| `docs/PromptTaskSystem_Frontend_Documentation_PL.docx` | Frontend structure, prompt form, prompt list, polling, translations and API communication |
-| `docs/PromptTaskSystem_Run_Guide_PL.docx` | Docker Compose run guide, environment variables, OpenAI setup and useful commands |
+| `docs/PromptTaskSystem_Backend_Documentation.docx` | Backend structure, API, Application, Domain, Infrastructure, Worker, database and OpenAI SDK integration |
+| `docs/PromptTaskSystem_Frontend_Documentation.docx` | Frontend structure, prompt form, prompt list, polling, translations and API communication |
+| `docs/PromptTaskSystem_Run_Guide.docx` | Docker Compose run guide, environment variables, OpenAI setup and useful commands |
 | `docs/run-project.md` | Short markdown run instructions |
 
 ---
